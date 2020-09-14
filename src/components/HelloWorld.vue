@@ -96,7 +96,7 @@ export default {
         this.attackList.push({type:"player-turn",text:"İlkyardım aldın " + addedHealth })
         this.attackList.push({type:"monster-turn",text:"Canavar Saldırısı "+this.monsterInformation.attack})
 
-
+        this.checkResult()
 
     },
     specialAttack(){
